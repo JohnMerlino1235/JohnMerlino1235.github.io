@@ -1,6 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Typewriter</h1>
+
+<button onclick="typeWriter()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
 var i = 0;
-var txt = 'Hello! Welcome to my portfolio!'; /* The text */
-var speed = 69; /* The speed/duration of the effect in milliseconds */
+var txt = 'Lorem ipsum dummy text blabla.';
+var speed = 69;
 
 function typeWriter() {
   if (i < txt.length) {
@@ -9,3 +20,7 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
 }
+</script>
+
+</body>
+</html>
